@@ -1,0 +1,140 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+   
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6e8e6 !important;
+}
+h1{
+    font-family: 'Poppins', 'Helvetica Neue',;
+    font-weight: 900;
+    margin: 15px 0;
+    text-decoration: underline overline #3772ff;
+    text-underline-offset: 8px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-weight: 1000;
+}
+
+#demo {
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.container .section{
+    width: 400px;
+    margin: 0px 0px;
+    outline: dashed #080708; 
+}
+.section .info{
+    background: #fdca40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px
+}
+.info span , .info h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: black;
+}
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+}
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : #e6e8e6;
+    height: 220px;
+}
+.show i{
+    font-size: 130px;
+    color: #3772ff;
+}
+
+.computer i {
+    color: #df2935;
+}
+h2{
+    font-family: times new roman;
+    font-weight: normal;
+    padding: 20px;
+    text-decoration: overline dotted #3772ff;
+}
+
+#demo {
+    font-weight: 700;
+}
+strong{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+}
+.selection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+}
+.selection button{
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 50%;
+    border: none;
+    outline: thick double #fdca40;
+    cursor: grab;
+    background : rgb(0, 0, 0);
+    font-size: 50px;
+    color: #058c42;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
